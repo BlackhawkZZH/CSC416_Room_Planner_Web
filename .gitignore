@@ -21,3 +21,12 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# NOT ignore
+!/node_modules
+/node_modules/*
+!/node_modules/react-scripts
+/node_modules/react-scripts/*
+!/node_modules/react-scripts/config
+/node_modules/react-scripts/config/*
+!/node_modules/react-scripts/config/webpack.config.js
