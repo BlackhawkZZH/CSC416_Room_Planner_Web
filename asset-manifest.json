@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CSC416_Room_Planner_Web/static/css/main.7c8f68cb.css",
+    "main.js": "/CSC416_Room_Planner_Web/static/js/main.54d7efd1.js",
+    "static/js/787.550151f8.chunk.js": "/CSC416_Room_Planner_Web/static/js/787.550151f8.chunk.js",
+    "index.html": "/CSC416_Room_Planner_Web/index.html",
+    "main.7c8f68cb.css.map": "/CSC416_Room_Planner_Web/static/css/main.7c8f68cb.css.map",
+    "main.54d7efd1.js.map": "/CSC416_Room_Planner_Web/static/js/main.54d7efd1.js.map",
+    "787.550151f8.chunk.js.map": "/CSC416_Room_Planner_Web/static/js/787.550151f8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c8f68cb.css",
+    "static/js/main.54d7efd1.js"
+  ]
+}
