@@ -5,8 +5,11 @@ import ModalVideo from 'react-modal-video'
 import ReactCircleModal from 'react-circle-modal'
 import { Hero, Flex, CallToAction } from 'react-landing-page';
 
+import Timeline from '../timeline/timeline';
+
 import 'tachyons';
 import '../../../node_modules/react-modal-video/scss/modal-video.scss'
+import "./welcome.less"
 
 
 const Welcome = (props) => {
@@ -24,26 +27,15 @@ const Welcome = (props) => {
         <Heading fontSize={150}>AR Room Planner</Heading>
         <Flex mt={3}>
           <ReactCircleModal
-            backgroundColor="#97349a"
             toogleComponent={onClick => (
               <CallToAction bg="grey" mr={3} style={{ width: "300px" }} onClick={onClick}>
                 Project Timeline
               </CallToAction>
             )}
-            // Optional fields and their default values
             offsetX={0}
             offsetY={0}
           >
-            {(onClick) => (
-              <div style={{ backgroundColor: '#fff', padding: '1em' }}>
-                <p>
-                  Content inside of modal
-                </p>
-                <button onClick={onClick}>
-                  Click here to close modal
-                </button>
-              </div>
-            )}
+            {(onClick) => (<Timeline close={onClick} />)}
           </ReactCircleModal>
           <CallToAction style={{ width: "300px" }} onClick={() => setIsOpen(true)}>Demo Video</CallToAction>
         </Flex>

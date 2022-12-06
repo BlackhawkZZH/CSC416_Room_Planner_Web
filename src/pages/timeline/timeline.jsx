@@ -1,6 +1,6 @@
 import React from "react"
 import { Chrono } from "react-chrono";
-import { CloseOutlined } from "ant-design/icons"
+import { BsXLg } from "react-icons/bs"
 
 import "./timeline.less"
 
@@ -20,9 +20,11 @@ const Timeline = (props) => {
   }];
 
   return (
-    <div className="timeline">
-      {/* <Chrono items={items} mode="VERTICAL_ALTERNATING" /> */}
-      <CloseOutlined />
+    <div className="back-page">
+      <div className="timeline">
+        <Chrono items={items} mode="VERTICAL_ALTERNATING" />
+        <BsXLg className="close-btn" onClick={props.close} />
+      </div>
     </div>
   )
 }
