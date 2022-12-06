@@ -1,16 +1,15 @@
 {
   "files": {
     "main.css": "/CSC416_Room_Planner_Web/static/css/main.7c8f68cb.css",
-    "main.js": "/CSC416_Room_Planner_Web/static/js/main.1a6794ae.js",
+    "main.js": "/CSC416_Room_Planner_Web/static/js/main.78c05dad.js",
     "static/js/787.550151f8.chunk.js": "/CSC416_Room_Planner_Web/static/js/787.550151f8.chunk.js",
-    "static/media/houzz-app-1.webp": "/CSC416_Room_Planner_Web/static/media/houzz-app-1.d54c994fb287603c5400.webp",
     "index.html": "/CSC416_Room_Planner_Web/index.html",
     "main.7c8f68cb.css.map": "/CSC416_Room_Planner_Web/static/css/main.7c8f68cb.css.map",
-    "main.1a6794ae.js.map": "/CSC416_Room_Planner_Web/static/js/main.1a6794ae.js.map",
+    "main.78c05dad.js.map": "/CSC416_Room_Planner_Web/static/js/main.78c05dad.js.map",
     "787.550151f8.chunk.js.map": "/CSC416_Room_Planner_Web/static/js/787.550151f8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7c8f68cb.css",
-    "static/js/main.1a6794ae.js"
+    "static/js/main.78c05dad.js"
   ]
 }
