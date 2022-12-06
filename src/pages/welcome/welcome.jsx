@@ -12,7 +12,7 @@ import '../../../node_modules/react-modal-video/scss/modal-video.scss'
 import "./welcome.less"
 
 
-const Welcome = (props) => {
+const Welcome = () => {
   let nav = useNavigate()
   const [isOpen, setIsOpen] = useState(false)
   return (
@@ -25,6 +25,7 @@ const Welcome = (props) => {
         bgOpacity={0.1}
       >
         <Heading fontSize={150}>AR Room Planner</Heading>
+        <div className='sub-header'>By @Zhenhao_Zhang @Yuze_Wang @Haiyan_Huang @Lichen_Qin </div>
         <Flex mt={3}>
           <ReactCircleModal
             toogleComponent={onClick => (
