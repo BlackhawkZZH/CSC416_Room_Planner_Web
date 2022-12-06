@@ -26,6 +26,7 @@ const Welcome = () => {
         <div className='sub-header'>By @Zhenhao_Zhang @Yuze_Wang @Haiyan_Huang @Lichen_Qin </div>
         <Flex mt={3}>
           <ReactCircleModal
+            backgroundColor="white"
             toogleComponent={onClick => (
               <CallToAction bg="grey" mr={3} style={{ width: "300px" }} onClick={onClick}>
                 Project Timeline
