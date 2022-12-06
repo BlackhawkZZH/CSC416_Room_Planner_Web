@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import { Heading } from 'rebass';
 import ModalVideo from 'react-modal-video'
 import ReactCircleModal from 'react-circle-modal'
@@ -13,7 +12,6 @@ import "./welcome.less"
 
 
 const Welcome = () => {
-  let nav = useNavigate()
   const [isOpen, setIsOpen] = useState(false)
   return (
     <>
