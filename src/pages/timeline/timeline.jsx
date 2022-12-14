@@ -21,7 +21,7 @@ const Timeline = (props) => {
 
   const items = [{
     title: "Week 1",
-    cardTitle: "10.31 - 11.4",
+    cardTitle: "11.7 - 11.11",
     cardSubtitle: "Design and Planning",
     cardDetailedText: (
       <div>
@@ -33,7 +33,7 @@ const Timeline = (props) => {
   },
   {
     title: "Week 2",
-    cardTitle: "11.7 - 11.11",
+    cardTitle: "11.14 - 11.18",
     cardSubtitle: "Get start to Development",
     cardDetailedText: (
       <div>
@@ -44,7 +44,7 @@ const Timeline = (props) => {
   },
   {
     title: "Week 3",
-    cardTitle: "11.14 - 11.18",
+    cardTitle: "11.21 - 11.25",
     cardSubtitle: "Refining Development",
     cardDetailedText: (
       <div>
@@ -56,7 +56,7 @@ const Timeline = (props) => {
   },
   {
     title: "Week 4",
-    cardTitle: "11.21 - 11.25",
+    cardTitle: "11.28 - 12.2",
     cardSubtitle: "User Study and Evaluation",
     cardDetailedText: (
       <div>
@@ -67,7 +67,7 @@ const Timeline = (props) => {
   },
   {
     title: "Week 5",
-    cardTitle: "11.28 - 12.2",
+    cardTitle: "12.5 - 12.9",
     cardSubtitle: "Summarization",
     cardDetailedText: (
       <div>
@@ -75,7 +75,19 @@ const Timeline = (props) => {
         <div>2. Preparing the slides and poster of final presentation.</div>
       </div>
     ),
-  }]
+  },
+  {
+    title: "Week 6",
+    cardTitle: "12.12 - 12.13",
+    cardSubtitle: "Poster Session",
+    cardDetailedText: (
+      <div>
+        <div>1. Hold poster session at Studio X.</div>
+        <div>2. Refine and submit final report.</div>
+      </div>
+    ),
+  }
+  ]
 
   return (
     <div className="back-page">
